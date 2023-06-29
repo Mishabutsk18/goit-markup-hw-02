@@ -1,0 +1,292 @@
+:root {
+    --navyblue: #2e2f42;
+    --slate: #434455;
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+  }
+  .link {
+    text-decoration: none;
+  }
+  .list {
+    list-style: none;
+  }
+  /*-----------------------Header---------------------*/
+  
+  .header {
+  }
+  
+  .header-logo {
+    color: var(--iris);
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .header-logo-accent {
+    color: var(--navyblue);
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+  .header-nav {
+  }
+  .header-menu {
+  }
+  .header-menu-item {
+  }
+  .header-menu-link {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navyblue);
+  }
+  
+  .header-socials {
+    font-style: normal;
+  }
+  
+  .header-social-list {
+  }
+  .header-social-item {
+    list-style-type: none;
+  }
+  .header-social-link {
+    text-decoration: none;
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+  .header-menu-link:hover,
+  .header-menu-link:focus {
+    color: var(--ocean);
+  }
+  .header-social-link:hover,
+  .header-social-link:focus {
+    color: var(--ocean);
+  }
+  
+  /*-------------------------HERO-----------------------------*/
+  
+  .hero {
+    background-color: #2e2f42;
+  }
+  .hero-title {
+    color: #fff;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+  }
+  .hero-btn {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    font-family: inherit;
+    cursor: pointer;
+    background-color: var(--iris);
+  }
+  .hero-btn:hover,
+  .hero-btn:focus {
+    background-color: var(--ocean);
+  }
+  /*-----------------------------Our Options ----------------------------*/
+  .our-options {
+    background-color: #fff;
+  }
+  .our-options-list {
+  }
+  .our-options-item {
+    list-style-type: none;
+  }
+  .our-options-subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navyblue);
+  }
+  .our-options-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+  }
+  /*------------------------- We Doing ---------------------------------------*/
+  .we-doing-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    text-align: center;
+    color: var(--navyblue);
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+  }
+  .we-doing-list {
+    list-style-type: none;
+  }
+  /*---------------------------- Team ---------------------------------------*/
+  .team {
+    background-color: #f4f4fd;
+  }
+  .team-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--navyblue);
+    text-transform: capitalize;
+  }
+  .team-list {
+    list-style-type: none;
+  }
+  .team-item {
+    background-color: #ffffff;
+  }
+  .team-name {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navyblue);
+  }
+  .team-position {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+  /*----------------------------- footer ----------------------------------*/
+  .footer {
+    background-color: #2e2f42;
+    flex-shrink: 0;
+  }
+  .footer-main-text {
+    color: #f4f4fd;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+  .footer-logo-accent {
+    color: #f4f4fd;
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 800;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+  }
+  .footer-logo {
+    color: var(--iris);
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+  /*------------------------- Directional buttons -------------------------*/
+  .directional-buttons {
+  }
+  .directional-buttons-list {
+    list-style-type: none;
+  }
+  .directional-buttons-item {
+  }
+  .directional-buttons-btn {
+    color: #4d5ae5;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    font-family: inherit;
+    background: #f4f4fd;
+    cursor: pointer;
+  }
+  .directional-buttons-btn:hover,
+  .directional-buttons-btn:focus {
+    background-color: #404bbf;
+    color: #ffffff;
+  }
+  /*---------------------------------services----------------------------------*/
+  
+  .services-list {
+    list-style-type: none;
+  }
+  .services-item {
+  }
+  .services-text {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0.12;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+  .services-subtitle {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0.12;
+    letter-spacing: 0.02em;
+  }
+  /*---------------------------------services-2----------------------------------*/
+  
+  .services-2-list {
+    list-style-type: none;
+  }
+  .services-2-item {
+  }
+  .services-2-text {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0.12;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+  .services-2-subtitle {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0.12;
+    letter-spacing: 0.02em;
+  }
+  /*---------------------------------services-3----------------------------------*/
+  
+  .services-3-list {
+    list-style-type: none;
+  }
+  .services-3-item {
+  }
+  .services-3-text {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0.12;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+  .services-3-subtitle {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0.12;
+    letter-spacing: 0.02em;
+  }
